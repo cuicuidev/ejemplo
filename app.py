@@ -8,5 +8,7 @@ def main():
 
     st.dataframe(df)
 
+    st.success("I like turtles")
+
 if __name__ == "__main__":
     main()
