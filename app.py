@@ -1,14 +1,9 @@
 import streamlit as st
-import seaborn as sns
+from dotenv import load_dotenv
 
 def main():
-    st.title("Iris")
+    st.title("Environment variables")
 
-    df = sns.load_dataset("iris")
-
-    st.dataframe(df)
-
-    st.success("I like turtles")
 
 if __name__ == "__main__":
     main()
